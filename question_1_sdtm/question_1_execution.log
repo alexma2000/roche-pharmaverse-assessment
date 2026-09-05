@@ -1,0 +1,11 @@
+Test passed with 3 successes 🥇.
+[1] "=== SDTM DS Domain Created Successfully (Pharmaverse Stack) ==="
+# A tibble: 5 × 12
+  STUDYID      DOMAIN USUBJID   DSSEQ DSTERM DSDECOD DSCAT VISITNUM VISIT DSDTC DSSTDTC DSSTDY
+  <chr>        <chr>  <chr>     <int> <chr>  <chr>   <chr>    <dbl> <chr> <iso> <iso86>  <dbl>
+1 CDISCPILOT01 DS     CDISCPIL…     1 Rando… Random… DISP…        1 Base… NA    NA           1
+2 CDISCPILOT01 DS     CDISCPIL…     2 Proto… Protoc… DISP…        1 Week… NA    NA           1
+3 CDISCPILOT01 DS     CDISCPIL…     3 <NA>   <NA>    DISP…        1 Week… NA    NA           1
+4 CDISCPILOT01 DS     CDISCPIL…     1 Rando… Random… DISP…        1 Base… NA    NA           1
+5 CDISCPILOT01 DS     CDISCPIL…     2 Adver… ADVERS… DISP…        1 Week… NA    NA           1
+[1] "=== Output CSV Dataset Saved Successfully! ==="

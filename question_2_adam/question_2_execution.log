@@ -1,0 +1,11 @@
+Test passed with 5 successes 🎉.
+[1] "=== ADaM ADSL Dataset Compiled Successfully (2026 Core Engine) ==="
+# A tibble: 5 × 6
+  USUBJID       AGE AGEGR9 ITTFL TRTSDTM             LSTAVLDT  
+  <chr>       <dbl> <chr>  <chr> <dttm>              <date>    
+1 01-701-1015    63 >50    Y     2014-01-02 00:00:00 2014-06-19
+2 01-701-1023    64 >50    Y     2012-08-05 00:00:00 2012-08-28
+3 01-701-1028    71 >50    Y     2013-07-19 00:00:00 2014-01-07
+4 01-701-1033    74 >50    Y     2014-03-18 00:00:00 2014-03-18
+5 01-701-1034    77 >50    Y     2014-07-01 00:00:00 2014-12-18
+[1] "=== ADaM ADSL CSV Saved Successfully! ==="
