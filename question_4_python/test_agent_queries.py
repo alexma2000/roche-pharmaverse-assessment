@@ -1,5 +1,5 @@
 # =====================================================================
-# COMPANY: Roche - PD Data Sciences & Analytics (PDD)
+# PROJECT: Open Clinical Analytics Suite
 # TASK: Question 4 - GenAI Agent Benchmark Evaluation Suite
 # CODEBASE: Standalone Verification Test Script
 # AUTHOR: Alex Mychlo, PhD
@@ -14,7 +14,7 @@ def run_regulatory_benchmark_tests():
     # Initialize the clinical data agent targeting the output location
     agent = ClinicalTrialDataAgent(dataframe_path="question_3_tlg/adae.csv")
     
-    # Executing the 3 mandatory evaluation queries requested by Roche
+    # Executing the 3 mandatory evaluation queries
     print("\n--- Executing Query 1: Severity Evaluation ---")
     agent.execute_query("Give me the subjects who had Adverse events of Moderate severity.")
     
